@@ -6,6 +6,7 @@ Release:	0.1
 License:	distributable	
 Group:		Development/Languages
 Source0:	http://www.minimalinux.org/arena/%{name}-%{version}.tar.gz
+# Source0-md5:	a1feb6df9014c4a1e89bf3f96b50f94e
 URL:		http://www.minimalinux.org/arena/
 BuildRequires:	autoconf
 BuildRequires:	automake
