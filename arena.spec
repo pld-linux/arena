@@ -32,17 +32,34 @@ Additionally, an interpreter for the Arena language can be
 implemented to be very compact in terms of both source code size
 and memory consumption.
 
-#%%description -l pl
+%description -l pl
+Arena to lekki jêzyk skryptowy. Jêzyk wykorzystuje sk³adniê i
+bibliotekê podobne do ANSI C, ale dodaje do tego automatyczne
+zarz±dzanie pamiêci± i polimorfizm. Jêzyk Arena zosta³ zaprojektowany
+z my¶l± o nastêpuj±cych cechach, z których wiêkszo¶æ zosta³adodana do
+rdzenia bardzo podobnego do C:
+- lepsze tworzenie skryptów ad-hoc
+- sk³adnia podobna do ANSI C
+- biblioteka standardowa podobna do ANSI C
+- automatyczne zarz±dzanie pamiêci±
+- polimorfizm
+- obs³uga wyj±tków
+- obs³uga anonimowych funkcji
+
+Ponadto interpreter jêzyka Arena mo¿e byæ zaimplementowany jako bardzo
+zwarty w sensie zarówno rozmiaru kodu ¼ród³owego, jak i wykorzystania
+pamiêci.
 
 %package examples
 Summary:	Examples for Arena Scripting Language
-Summary(pl):	Przyk³ady dla jêzyka skryptowego arena
+Summary(pl):	Przyk³ady dla jêzyka skryptowego Arena
 Group:		Development/Languages
 
 %description examples
 Examples for Arena Scripting Language.
 
-#%%description examples -l pl
+%description examples -l pl
+Przyk³ady dla jêzyka skryptowego Arena.
 
 %prep
 %setup -q
