@@ -36,8 +36,8 @@ and memory consumption.
 Arena to lekki jêzyk skryptowy. Jêzyk wykorzystuje sk³adniê i
 bibliotekê podobne do ANSI C, ale dodaje do tego automatyczne
 zarz±dzanie pamiêci± i polimorfizm. Jêzyk Arena zosta³ zaprojektowany
-z my¶l± o nastêpuj±cych cechach, z których wiêkszo¶æ zosta³adodana do
-rdzenia bardzo podobnego do C:
+z my¶l± o nastêpuj±cych cechach, z których wiêkszo¶æ zosta³a dodana
+do rdzenia bardzo podobnego do C:
 - lepsze tworzenie skryptów ad-hoc
 - sk³adnia podobna do ANSI C
 - biblioteka standardowa podobna do ANSI C
@@ -78,13 +78,14 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 	DESTDIR=$RPM_BUILD_ROOT
 
 cp -f doc/manual/transform $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -Rf examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/CHANGES doc/CREDITS doc/HACKING doc/LICENSE doc/NEWS doc/TODO doc/manual/manual.asc
+%doc README doc/CHANGES doc/CREDITS doc/HACKING doc/LICENSE doc/NEWS doc/TODO doc/manual/manual.asc
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/arena.1*
 
