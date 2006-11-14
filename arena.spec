@@ -1,12 +1,12 @@
 Summary:	Arena Scripting Language with syntax and library similar to ANSI C
 Summary(pl):	Jêzyk skryptowy Arena ze sk³adni± i bibliotek± podobn± do ANSI C
 Name:		arena
-Version:	0.9.8
+Version:	0.9.9
 Release:	1
 License:	distributable	
 Group:		Development/Languages
 Source0:	http://www.minimalinux.org/arena/%{name}-%{version}.tar.gz
-# Source0-md5:	a1feb6df9014c4a1e89bf3f96b50f94e
+# Source0-md5:	16005f68f784d9062feccfaa83c1ad03
 URL:		http://www.minimalinux.org/arena/
 BuildRequires:	autoconf
 BuildRequires:	automake
