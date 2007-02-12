@@ -1,5 +1,5 @@
 Summary:	Arena Scripting Language with syntax and library similar to ANSI C
-Summary(pl):	Jêzyk skryptowy Arena ze sk³adni± i bibliotek± podobn± do ANSI C
+Summary(pl.UTF-8):   JÄ™zyk skryptowy Arena ze skÅ‚adniÄ… i bibliotekÄ… podobnÄ… do ANSI C
 Name:		arena
 Version:	0.9.9
 Release:	1
@@ -32,34 +32,34 @@ Additionally, an interpreter for the Arena language can be
 implemented to be very compact in terms of both source code size
 and memory consumption.
 
-%description -l pl
-Arena to lekki jêzyk skryptowy. Jêzyk wykorzystuje sk³adniê i
-bibliotekê podobne do ANSI C, ale dodaje do tego automatyczne
-zarz±dzanie pamiêci± i polimorfizm. Jêzyk Arena zosta³ zaprojektowany
-z my¶l± o nastêpuj±cych cechach, z których wiêkszo¶æ zosta³a dodana
+%description -l pl.UTF-8
+Arena to lekki jÄ™zyk skryptowy. JÄ™zyk wykorzystuje skÅ‚adniÄ™ i
+bibliotekÄ™ podobne do ANSI C, ale dodaje do tego automatyczne
+zarzÄ…dzanie pamiÄ™ciÄ… i polimorfizm. JÄ™zyk Arena zostaÅ‚ zaprojektowany
+z myÅ›lÄ… o nastÄ™pujÄ…cych cechach, z ktÃ³rych wiÄ™kszoÅ›Ä‡ zostaÅ‚a dodana
 do rdzenia bardzo podobnego do C:
-- lepsze tworzenie skryptów ad-hoc
-- sk³adnia podobna do ANSI C
+- lepsze tworzenie skryptÃ³w ad-hoc
+- skÅ‚adnia podobna do ANSI C
 - biblioteka standardowa podobna do ANSI C
-- automatyczne zarz±dzanie pamiêci±
+- automatyczne zarzÄ…dzanie pamiÄ™ciÄ…
 - polimorfizm
-- obs³uga wyj±tków
-- obs³uga anonimowych funkcji
+- obsÅ‚uga wyjÄ…tkÃ³w
+- obsÅ‚uga anonimowych funkcji
 
-Ponadto interpreter jêzyka Arena mo¿e byæ zaimplementowany jako bardzo
-zwarty w sensie zarówno rozmiaru kodu ¼ród³owego, jak i wykorzystania
-pamiêci.
+Ponadto interpreter jÄ™zyka Arena moÅ¼e byÄ‡ zaimplementowany jako bardzo
+zwarty w sensie zarÃ³wno rozmiaru kodu ÅºrÃ³dÅ‚owego, jak i wykorzystania
+pamiÄ™ci.
 
 %package examples
 Summary:	Examples for Arena Scripting Language
-Summary(pl):	Przyk³ady dla jêzyka skryptowego Arena
+Summary(pl.UTF-8):   PrzykÅ‚ady dla jÄ™zyka skryptowego Arena
 Group:		Development/Languages
 
 %description examples
 Examples for Arena Scripting Language.
 
-%description examples -l pl
-Przyk³ady dla jêzyka skryptowego Arena.
+%description examples -l pl.UTF-8
+PrzykÅ‚ady dla jÄ™zyka skryptowego Arena.
 
 %prep
 %setup -q
