@@ -1,5 +1,5 @@
 Summary:	Arena Scripting Language with syntax and library similar to ANSI C
-Summary(pl.UTF-8):   Język skryptowy Arena ze składnią i biblioteką podobną do ANSI C
+Summary(pl.UTF-8):	Język skryptowy Arena ze składnią i biblioteką podobną do ANSI C
 Name:		arena
 Version:	0.9.9
 Release:	1
@@ -52,7 +52,7 @@ pamięci.
 
 %package examples
 Summary:	Examples for Arena Scripting Language
-Summary(pl.UTF-8):   Przykłady dla języka skryptowego Arena
+Summary(pl.UTF-8):	Przykłady dla języka skryptowego Arena
 Group:		Development/Languages
 
 %description examples
