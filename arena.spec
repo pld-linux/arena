@@ -2,7 +2,7 @@ Summary:	Arena Scripting Language with syntax and library similar to ANSI C
 Summary(pl.UTF-8):	Język skryptowy Arena ze składnią i biblioteką podobną do ANSI C
 Name:		arena
 Version:	0.9.9
-Release:	2
+Release:	3
 License:	distributable	
 Group:		Development/Languages
 Source0:	http://www.minimalinux.org/arena/%{name}-%{version}.tar.gz
